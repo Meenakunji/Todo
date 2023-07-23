@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Todo List</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@500&family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="full">
+  <div class="container">
+    <h2>Todo List</h2>
+    <div class="box">
+      <div class="navbox1">
+      <input type="text" id="taskinput" placeholder="Enter a task">
+      <input type="text" id="taginput" placeholder="Enter tags">
+      <input type="date" id="dueDateInput" placeholder="Due date">
+      <select id="priorityInput">
+        <option value="low">low</option>
+        <option value="medium">medium</option>
+        <option value="high">high</option>
+      </select>
+      <button id="savebtn">Save</button>
+    </div>
+      <br>
+      <!-- <input type="date" name="" id=""> -->
+      <div class="navbox2">
+      <label>Filter by Due Date:</label>
+      <input type="date" id="filterDueDate" placeholder="Enter due date">
+      <label style="margin: 0px 26px;">Filter by Category:</label>
+      <input type="text" id="filterCategory" placeholder="Enter category">
+      <label>Filter by Priority:</label>
+      <select id="filterPriority">
+        <option value="">All</option>
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+      </select>
+      <button id="filterBtn">Filter</button>
+    </div>
+       <div class="navbox3">
+      <label for="sortSelect">Sort by:</label>
+      <select id="sortSelect">
+        <!-- <option value="default">Default</option> -->
+        <option value="default">Default</option>
+        <option value="dueDate">Due Date</option>
+        <option value="priority">Priority</option>
+        
+      </select>
+      <button id="sortbtn">Sort</button>
+      <button id="backlogBtn">View Backlogs</button> 
+      <button id="viewall">View All</button> 
+
+      <input type="text" id="searchinput" placeholder="Search tasks,tags & subtask">
+       <button id="searchbtn">Search</button>
+
+    </div>
+      
+    </div>
+    
+    
+    <ul id="listitems"></ul>
+  </div>
+
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
