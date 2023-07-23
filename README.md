@@ -1,9 +1,9 @@
 # Todo
 
 Todo-list application with the following features:- 
-Add Todo: Users can add new tasks to the todo list. -
-Edit Todo: Users can edit the details of existing tasks.
-Delete Todo: Users can remove tasks from the todo list.
+Add Todo: Users can add new tasks to the todo list. 
+- Edit Todo: Users can edit the details of existing tasks.
+- Delete Todo: Users can remove tasks from the todo list.
 Mark as Done: Users can mark tasks as completed.
 Mark as Undone: Users can mark completed tasks as undone.
 Add Category: Users can categorize tasks to organize them better.
